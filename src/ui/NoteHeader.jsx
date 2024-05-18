@@ -4,6 +4,8 @@ import { useNotes } from "../contexts/NotesContext";
 
 import Checkbox from "./Checkbox";
 import EditForm from "../components/EditForm";
+import editPic from "../../public/edit.png";
+import deletePic from "../../public/delete-rounded.png";
 
 NoteHeader.propTypes = {
   note: PropTypes.object,
@@ -55,7 +57,7 @@ function NoteHeader({ note }) {
           </Checkbox>
 
           <img
-            src="../../public/edit.png"
+            src={editPic}
             alt="edit"
             className={styles.edit_button}
             onClick={() => handleEditCurrentNote(note)}
@@ -65,7 +67,7 @@ function NoteHeader({ note }) {
           </div>
 
           <img
-            src="../../public/delete-rounded.png"
+            src={deletePic}
             alt="delete"
             className={styles.delete_button}
             onClick={() => handleDeleteCurrentNote(note)}

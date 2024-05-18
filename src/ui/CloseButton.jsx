@@ -1,5 +1,6 @@
 import styles from "./CloseButton.module.css";
 import PropTypes from "prop-types";
+import closePic from "../../public/close.png";
 
 CloseButton.propTypes = {
   type: PropTypes.string,
@@ -10,7 +11,7 @@ function CloseButton({ type, onClick }) {
   return (
     <>
       <img
-        src="../../public/close.png"
+        src={closePic}
         alt="close"
         className={styles.image}
         onClick={onClick}

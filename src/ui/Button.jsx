@@ -6,6 +6,7 @@ Button.propTypes = {
   type: PropTypes.string,
   onClick: PropTypes.func,
   submitType: PropTypes.string,
+  children: PropTypes.any,
 };
 
 function Button({ children, type, onClick, submitType }) {
