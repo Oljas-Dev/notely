@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.container {
+  padding-top: 8rem;
+
+  transition: all 0.5s;
+}
+
+.mt3 {
+  margin-top: 3rem;
+  padding: 0;
+}

@@ -1,0 +1,97 @@
+.input {
+  background-color: var(--color-gray-100);
+  padding: 1.2rem;
+  width: calc(58.8rem / 2);
+
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+
+  border: 1px solid var(--color-black-12);
+  border-radius: 8px;
+  outline: none;
+}
+
+.input:hover {
+  border: 1px solid var(--color-blue-400);
+}
+
+.input::placeholder {
+  font-weight: 500;
+  color: var(--color-gray-900-60);
+}
+
+.select_container {
+  position: relative;
+  background-color: var(--color-gray-100);
+  padding: 1.2rem;
+  width: calc(58.8rem / 2);
+
+  border: 1px solid var(--color-black-12);
+  border-radius: 8px;
+  outline: none;
+}
+
+.select_container:hover {
+  border: 1px solid var(--color-blue-400);
+}
+
+.drop_down_arrow {
+  position: absolute;
+  top: 30%;
+  right: 4%;
+
+  display: block;
+  background-image: url(../../public/arrow-drop-down.png);
+  background-repeat: no-repeat;
+
+  width: 2rem;
+  height: 2rem;
+}
+
+.up_arrow {
+  position: absolute;
+  top: 30%;
+  right: 4%;
+
+  display: block;
+  background-image: url(../../public/arrow-drop-up.png);
+  background-repeat: no-repeat;
+
+  width: 2rem;
+  height: 2rem;
+}
+
+.select_menu {
+  position: absolute;
+  top: 5.6rem;
+  left: 0;
+
+  list-style: none;
+  background-color: var(--color-gray-100);
+  width: calc(58.8rem / 2);
+  padding: 1.6rem 0;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.select_menu li {
+  padding: 1.2rem 1.6rem;
+
+  color: var(--color-gray-900-60);
+}
+
+.select_menu li:hover {
+  background-color: var(--color-black-12);
+  color: var(--color-gray-900-87);
+}
+
+.error {
+  font-size: 1.2rem;
+  line-height: 0.5;
+  letter-spacing: 0.4px;
+  color: var(--color-red-400);
+}

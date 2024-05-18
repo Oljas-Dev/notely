@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 1.65;
+}

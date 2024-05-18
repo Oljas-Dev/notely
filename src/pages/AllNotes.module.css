@@ -1,0 +1,10 @@
+.container {
+  padding-top: 8rem;
+
+  transition: all 0.5s;
+}
+
+.mt3 {
+  margin-top: 3rem;
+  padding: 0;
+}

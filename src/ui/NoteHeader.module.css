@@ -1,0 +1,147 @@
+.note__flex_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note__flex_left_element {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  position: relative;
+}
+
+/* Edit button hover effects */
+
+.edit_button {
+  backface-visibility: hidden;
+  z-index: 2;
+}
+
+.hover_edit_circle {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--color-black-12);
+
+  position: absolute;
+  top: -0.1rem;
+  left: 4.5rem;
+
+  transition: all 0.15s ease-in;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.edit_button:hover + .hover_edit_circle {
+  visibility: visible;
+}
+
+.edit_text {
+  background-color: var(--color-gray-200);
+  padding: 1rem 0.8rem;
+  border-radius: 4px;
+
+  font-size: 1.2rem;
+  line-height: 0.5;
+  letter-spacing: 0.4px;
+  color: var(--color-white);
+
+  position: absolute;
+  top: 5rem;
+  right: 0;
+
+  transform: translateY(-1rem);
+  transition: all 0.05s ease-in;
+}
+
+.edit_button:hover + .hover_edit_circle .edit_text {
+  transform: translateY(-0.4rem);
+}
+
+/* Delete button hover effects */
+
+.delete_button {
+  z-index: 4;
+}
+
+.hover_delete_circle {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--color-black-12);
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  transition: all 0.15s;
+  visibility: hidden;
+  z-index: 3;
+}
+
+.delete_button:hover + .hover_delete_circle {
+  visibility: visible;
+}
+
+.delete_text {
+  background-color: var(--color-gray-200);
+  padding: 1rem 0.8rem;
+  border-radius: 4px;
+
+  font-size: 1.2rem;
+  line-height: 0.5;
+  letter-spacing: 0.4px;
+  color: var(--color-white);
+
+  position: absolute;
+  top: 5rem;
+  right: -0.7rem;
+
+  transform: translateY(-1rem);
+  transition: all 0.05s ease-in;
+}
+
+.delete_button:hover + .hover_delete_circle .delete_text {
+  transform: translateY(-0.4rem);
+}
+
+/* Tags features */
+
+.tag {
+  background-color: var(--color-gray-900-36);
+
+  font-size: 1.4rem;
+  letter-spacing: 0.25px;
+  line-height: 1.7142;
+  color: var(--color-gray-900-36);
+
+  padding: 0.6rem 1.2rem;
+
+  border-radius: 2.8rem;
+}
+
+.purple {
+  background-color: var(--color-purple-200);
+  color: var(--color-purple-900);
+}
+
+.green {
+  background-color: var(--color-green-200);
+  color: var(--color-green-900);
+}
+
+.orange {
+  background-color: var(--color-orange-200);
+  color: var(--color-orange-900);
+}
+
+/* Date positioning */
+
+.note_date {
+  display: flex;
+  justify-content: end;
+}

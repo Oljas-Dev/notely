@@ -1,0 +1,44 @@
+.image {
+  position: relative;
+  z-index: 550;
+}
+
+.confirmWindow {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--color-black-12);
+
+  position: absolute;
+  top: -0.3rem;
+  right: -1rem;
+
+  transition: all 0.15s ease-in;
+  visibility: hidden;
+  z-index: 525;
+}
+
+.image:hover + .confirmWindow {
+  visibility: visible;
+}
+
+.searchBar {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--color-black-12);
+
+  position: absolute;
+  top: 2.1rem;
+  right: 1.4rem;
+
+  transition: all 0.15s ease-in;
+  visibility: hidden;
+  z-index: 525;
+}
+
+.image:hover + .searchBar {
+  visibility: visible;
+}

@@ -1,0 +1,48 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: var(--color-black-32);
+  z-index: 450;
+
+  transition: all 0.5s;
+}
+
+.container {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  max-width: 40rem;
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 500;
+}
+
+.container p,
+.container h2 {
+  margin: 0;
+}
+
+.flex_row {
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.btn_flex {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}

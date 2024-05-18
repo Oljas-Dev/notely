@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;900&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap");
+
+:root {
+  /* colors */
+
+  --color-gray-900: #212121;
+  --color-gray-900-87: rgba(21, 21, 21, 0.87);
+  --color-gray-900-60: rgba(21, 21, 21, 0.6);
+  --color-gray-900-36: rgba(21, 21, 21, 0.36);
+  --color-gray-200: #757575;
+  --color-gray-100: #eeeeee;
+
+  --color-black-12: rgba(0, 0, 0, 0.12);
+  --color-black-24: rgba(0, 0, 0, 0.24);
+  --color-black-32: rgba(0, 0, 0, 0.32);
+
+  --color-white: #fff;
+  --color-white-24: rgba(255, 255, 255, 0.24);
+
+  --color-blue-400: #42a5f5;
+  --color-blue-500: #2196f3;
+
+  --color-red-400: #ef5350;
+  --color-red-500: #f44336;
+  --color-orange-900: #e65100;
+  --color-orange-200: #ffcc80;
+
+  --color-green-900: #1b5e20;
+  --color-green-200: #a5d6a7;
+
+  --color-purple-900: #4527a0;
+  --color-purple-200: #b39ddb;
+
+  /* fonts */
+
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--color-gray-100);
+  color: var(--color-gray-900-87);
+
+  margin: 0 0 3rem;
+}
+
+/* main {
+  padding: 0 10rem;
+} */
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 2.4rem;
+  letter-spacing: 0.25px;
+  line-height: 1.4;
+
+  margin-top: 1.8rem;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+.flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.sec_text {
+  color: var(--color-gray-900-60);
+}
+
+.sm_text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  line-height: 1.7142;
+}
