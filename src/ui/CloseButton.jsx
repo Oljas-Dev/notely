@@ -10,7 +10,7 @@ function CloseButton({ type, onClick }) {
   return (
     <>
       <img
-        src="../../public/close.svg"
+        src="../../public/close.png"
         alt="close"
         className={styles.image}
         onClick={onClick}

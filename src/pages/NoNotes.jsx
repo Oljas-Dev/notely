@@ -10,7 +10,7 @@ function NoNotes({ type }) {
     return (
       <div className={styles.flex}>
         <img
-          src="../../public/notes.svg"
+          src="../../public/notes.png"
           width="206px"
           height="188px"
           alt="no notes"
@@ -22,7 +22,7 @@ function NoNotes({ type }) {
   return (
     <div className={styles.flex}>
       <img
-        src="../../public/notes.svg"
+        src="../../public/notes.png"
         width="206px"
         height="188px"
         alt="no notes"

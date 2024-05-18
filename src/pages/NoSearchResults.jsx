@@ -4,7 +4,7 @@ function NoSearchResults() {
   return (
     <div className={styles.flex}>
       <img
-        src="../../public/search-results.svg"
+        src="../../public/search-results.png"
         width="206px"
         height="188px"
         alt="no notes"
