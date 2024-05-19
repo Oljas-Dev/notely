@@ -11,8 +11,8 @@
   background-color: var(--color-black-12);
 
   position: absolute;
-  top: -0.3rem;
-  right: -1rem;
+  top: -0.1rem;
+  right: -0.1rem;
 
   transition: all 0.15s ease-in;
   visibility: hidden;
@@ -31,8 +31,8 @@
   background-color: var(--color-black-12);
 
   position: absolute;
-  top: 2.1rem;
-  right: 1.4rem;
+  top: 2.3rem;
+  right: 2.3rem;
 
   transition: all 0.15s ease-in;
   visibility: hidden;

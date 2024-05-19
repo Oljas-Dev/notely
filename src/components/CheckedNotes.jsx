@@ -3,6 +3,9 @@ import styles from "./CheckedNotes.module.css";
 import { formatDate } from "../utils/helpers";
 import { useNotes } from "../contexts/NotesContext";
 
+import editInactivePic from "../../public/edit_inactive.png";
+import deleteInactivePic from "../../public/delete_inactive.png";
+
 CheckedNotes.propTypes = {
   note: PropTypes.object,
 };
@@ -36,7 +39,7 @@ function CheckedNotes({ note }) {
             </label>
 
             <img
-              src="../../public/edit_inactive.png"
+              src={editInactivePic}
               alt="edit"
               className={styles.edit_button}
             />
@@ -45,7 +48,7 @@ function CheckedNotes({ note }) {
             </div>
 
             <img
-              src="../../public/delete_inactive.png"
+              src={deleteInactivePic}
               alt="delete"
               className={styles.delete_button}
             />
